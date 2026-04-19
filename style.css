@@ -1,0 +1,925 @@
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html, body{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-family: "Science Gothic", sans-serif;
+    
+    scroll-behavior: smooth;
+}
+main{
+    width: 100%;
+    height: auto;
+    
+}
+
+li{
+    list-style: none;
+}
+p{
+    color: rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+}
+/* контейнер-1 */
+.main-information-1{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.main-information-2{
+    display: grid;
+    grid-template-columns: 500px 900px;
+    width: 90%;
+    height: auto;
+    color: white;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-information-2-1{
+    display: grid;
+    grid-template-columns: 100px 400px;
+}
+.main-information-2-1 p{
+    font-size: 20px;
+}
+.main-information-2 p{
+    color: white;
+    position: relative;
+    top: 20px;
+}
+.main-information-2-2{
+    display: grid;
+    grid-template-columns: 600px 150px 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-information-2-2-img{
+    position: relative;
+    top: 10px;
+    display: grid;
+    grid-template-columns: 50px 50px;
+    padding-left: 30px;
+}
+.main-information-2-2-img img{
+    width: 50px;
+    height: auto;
+}
+.btn-main-information-2-2{
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    background-color: rgb(179, 179, 179);
+    border: 2px solid  rgb(255, 255, 255);
+}
+.btn-main-information-2-2:hover{
+    cursor: pointer;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    transition: 0.7s;
+}
+.btn-main-information-2-2 a{
+    font-size: 22px;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+.btn-main-information-2-2 a:hover{
+    color: white;
+    transition: 0.7s;
+}
+.background-container-1{
+    width: 100%;
+    height: auto;
+    background-color: rgb(29, 29, 29);
+}
+.container-1{
+    width: 80%;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.video-video{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.container-1-video{
+    width: 100%;
+    height: auto;
+}
+.header1-nav{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 40px;
+    text-align: center;
+    
+}
+.header1{
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    z-index: 111;
+    left: 0;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(24, 24, 24);
+}
+.header1-nav-img{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.header1-nav a:hover{
+    background-color: rgb(8, 8, 8);
+    transition: 0.7s;
+    border-radius: 20px;
+}
+.header1-nav a{
+    font-size: 22px;
+    color: white;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.header1-1{
+    width: 80%;
+    height: 90px;
+    display: grid;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 10px;
+}
+.separation{
+    width: 100%;
+    height: 5px;
+    background-color: rgb(221, 146, 6);
+}
+.separation-2{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(194, 129, 9);
+}
+
+/* контейнер-2 */
+
+
+
+.background-container-2{
+    width: 100%;
+    height: auto;
+    background-color: rgb(36, 36, 36);
+}
+.container-2{
+    width: 80%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description-1 {
+    font-size: 60px;
+    padding-top: 30px;
+    text-align: center;
+
+}
+.description-2{
+    width: 1150px;
+    font-size: 28px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.car-categories{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 2fr repeat(9,1fr);
+    position: relative;
+}
+.description-car-categorie{
+    background-color: rgb(8, 8, 8);
+    width: 100%;
+    height: 70;
+}
+.description-car-categories p{
+    color: rgb(160, 160, 160);
+}
+.description-car-categories p{
+    position: relative;
+    top: 20px;
+    font-size: 22px;
+}
+.car-categories-1 a{
+    position: relative;
+    top: 25px;
+}
+.car-categories-1{
+    text-align: center;
+    width: 100px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.car-categories-1 a{
+    color: rgb(160, 160, 160);
+}
+.car-categories-1:hover{
+    background-color: rgb(8, 8, 8);
+    width: 100px;
+    height: 70px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+.car-categories-color{
+    width: 100%;
+    height: auto;
+    background-color:  rgb(29, 29, 29);
+    position: relative;
+    top: 20px;
+}
+.model-range{
+    width: 80%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    row-gap: 2em;
+    column-gap: 1em;
+    background-color: rgb(36, 36, 36);
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+.auto{
+    width: 100%;
+    height: auto;
+    background-color:  rgb(29, 29, 29);
+    border-radius: 30px;
+    
+}
+.auto img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    pointer-events: none;
+}
+.description-auto p{
+    text-align: center;
+    font-size: 20px;
+}
+.btn-description-auto{
+    width: 250px;
+    font-size: 24px;
+    height: auto;
+    position: relative;
+    display: grid;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(179, 179, 179);
+    border: 2px solid  rgb(255, 255, 255);
+}
+.btn-description-auto:hover{
+    width: 250px;
+    height: auto;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    transition: 0.7s;
+    cursor: pointer;
+}
+.btn-description-auto p{
+    color: white;
+}
+.btn-description-auto a{
+    color: rgb(0, 0, 0);
+}
+
+/* Модальное окно */
+
+.modal-container-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    background-color: rgb(29, 29, 29);
+    z-index: 100;
+    transform: translate(0%,100%);
+    border-radius: 20px;
+}
+.img_cont{
+    width: auto;
+    display: grid;
+    position: relative;
+
+}
+.img_cont-1{
+    width: 100%;
+    height: 80%;    
+    display: grid;
+    background-color: rgb(36, 36, 36);
+    border-radius: 20px;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    left: 20px;
+
+}
+.modal-container-1-img{
+    width: 300px !important;
+    height: auto;
+    position: relative;
+    display: grid;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    pointer-events: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* transform: translateY(100%); */
+}
+.modal-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.modal_wrapper{
+    position: fixed;
+    display: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+.btn_close_modal{
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    width: 80px;
+    height: 40px;
+}
+.name_modal_car{
+    padding: 10px 20px;
+    position: absolute;
+    top: 20px;
+    right: 130px;
+}
+.btn_close_modal{
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    width: 80px;
+    height: 40px;
+}
+.name_modal_car{
+    padding: 10px 20px;
+    position: absolute;
+    top: 20px;
+    right: 130px;
+}
+
+
+/* контейнер-3 */
+
+.background-container-3{
+    width: 100%;
+    height: auto;
+    background-color:  rgb(29, 29, 29);
+}
+.container-3{
+    width: 80%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.auto-kredit-1{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 60px;
+
+}
+.auto-kredit-1-1{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+}
+.auto-kredit-1-1-1{
+    font-size: 20px;
+}
+.auto-kredit-1-1-1-p{
+    font-size: 30px;
+    padding-bottom: 5px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.auto-kredit-1-1-1-li{
+    position: relative;
+    padding-left: 30px;
+    list-style: none;
+}
+.auto-kredit-1-1-1-1-container{
+    width: 600px;
+    height: 200px;
+    background-color: rgb(63, 63, 63);
+    border-radius: 20px;
+    margin-left: auto;
+    margin-top: 20px;
+   padding: 15px;
+}
+.auto-kredit-1-1-1-1-kredit-p{
+    position: relative;
+    text-align: center;
+    font-size: 36px;
+}
+.auto-kredit-1-1-1-1-container-stage{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5px;
+    border-radius: 50px;
+    background-color:  rgb(29, 29, 29);
+    text-align: center;
+    
+}
+.auto-kredit-1-1-1-1-container-stage p{
+    text-align: center;
+    position: relative;
+    font-size: 24px;
+    top: 5px;
+}
+.stage-title{
+    position: relative;
+    top: 10px;
+    font-size: 22px;
+}
+.stage-description{
+    position: relative;
+    top: 10px;
+    font-size: 18px;
+}
+.auto-kredit-1-1-1-1-container-1{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(63, 63, 63);
+    border-radius: 20px;
+    margin-left: auto;
+    margin-top: 20px;
+   padding: 15px;
+}
+.auto-kredit-1-1-1-1-container-stage-1{
+    width: 150px;
+    height: 80px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;     
+    border-radius: 50px;
+    background-color:  rgb(29, 29, 29);
+    text-align: center;
+}
+.stage-title-1{
+    position: relative;
+    top: 5px;
+    font-size: 22px;
+}
+.btn-auto-kredit-1-1-1-1-container{
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.stage-p-1{
+    position: relative;
+    top: 15px;
+}
+
+.auto-kredit-1-1-1-1-container-1-btn{
+
+    width: 250px;
+    height: auto;
+    padding: 20px;
+    font-size: 22px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 40px;
+    background-color: rgb(179, 179, 179);
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    
+}
+.auto-kredit-1-1-1-1-container-1-btn:hover{
+    width: 250px;
+    height: auto;
+    background-color: rgb(20, 20, 20);
+    border-radius: 20px;
+    transition: 0.7s;
+}
+.auto-kredit-1-1-1-1-container-1-btn a{
+    color: rgb(0, 0, 0);
+}
+.auto-kredit-1-1-1-1-container-1-btn a:hover{
+    color: white;
+    transition: 0.7s;
+}
+
+
+/* контейнер-4 */
+
+.background-container-4{
+    width: 100%;
+    height: auto;
+    background-color: rgb(36, 36, 36);
+}
+.container-4{
+    width: 80%;
+    height: auto;
+    display: grid;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.page-description-2{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 0.7fr repeat(1,1fr);
+}
+.page-description-2-1{
+    width: 100%;
+    height: 80%;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgb(29, 29, 29);
+    padding: 30px;
+}
+.description-4{
+    font-size: 60px;
+}
+.description-4-1{
+    font-size: 22px;
+}
+.page-description-2-1-img{
+    width: 650px;
+    height: auto;
+}
+.page-description-2-select{
+    padding: 10px;
+    width: 600px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(179, 179, 179);
+    margin-bottom: 20px;
+}
+.page-description-2-select:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+.page-description-2-select option{
+    font-size: 16px;
+    font-weight: 400;
+}
+.selected{
+    display: none;
+}
+.page-description-2-select-1{
+    margin-top: 20px;
+}
+.year-of-manufacture-and-phone-number{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    column-gap: 20px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+.year-of-manufacture{
+    border: 2px solid white;
+    display: grid; 
+    width: 100%;
+}
+.phone-number{
+    border: 2px solid white;
+    display: grid;
+    width: 100%;
+}
+.year-of-manufacture input{
+    font-size: 18px;
+    background-color: rgb(179, 179, 179);
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.phone-number input{
+    font-size: 18px;
+    background-color: rgb(179, 179, 179);
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.order-a-call{
+    display: grid;
+}
+.order-a-call-1{
+    display: grid;
+    width: 100%;
+    height: auto;
+    background-color: rgb(179, 179, 179);
+    border: 2px solid white;
+}
+.order-a-call-1 a{
+    color: black;
+    font-size: 24px;
+    display: grid;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.order-a-call-1:hover {
+    background-color: rgb(20, 20, 20);
+    transition: 0.7s;
+}
+.order-a-call-1 a:hover{
+    color: white;
+    transition: 0.7s;
+}
+
+
+/* контейнер-5 */
+
+.background-container-5{
+    width: 100%;
+    height: auto;
+    background-color:  rgb(29, 29, 29);
+    padding-bottom: 50px;
+}
+.container-5{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.fon-background-container-5{
+    width: 80%;
+    height: auto;
+    background-color:  rgb(36, 36, 36);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.page-description-1{
+    border-radius: 20px;
+    position: relative;
+    margin-left: auto;
+}
+.description-3{
+    font-size: 60px;
+    position: relative;
+    margin-left: auto;
+    font-size: 60px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+.description-5{
+    font-size: 28px;
+    margin-left: auto;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.service-sections{
+    width: 80%;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 2em;
+    column-gap: 1em;
+    padding-top: 30px;
+}
+.service-sections-1-a{
+    position: relative;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(179, 179, 179);
+    color: rgb(0, 0, 0);
+    padding: 25px;
+    font-size: 20px;
+}
+.service-sections-1-a-1{
+    display: grid;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(179, 179, 179);
+    color: rgb(0, 0, 0);
+    padding: 40px;
+    font-size: 20px;
+}
+.service-sections-1-a-1-2{
+    display: grid;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(179, 179, 179);
+    color: rgb(0, 0, 0);
+    padding: 25px;
+    font-size: 20px;
+}
+.service-sections-1-a-1-3{
+    display: grid;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(179, 179, 179);
+    color: rgb(0, 0, 0);
+    padding: 40px;
+    font-size: 20px;
+}
+.service-sections-1 a:hover{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(20, 20, 20);
+    color: white;
+    transition: 0.7s;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(19, 19, 19);    
+}
+.footer-info{
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+.logo-DareDevils{
+    width: 500px;
+    height: auto;
+    font-size: 80px;
+}
+.DaraDevils-info{
+    width: 100%;
+    height: auto;
+}
+.DaraDevils-info-p{
+    font-size: 22px;
+}
+.footer-info-1{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 40px;
+}
+.footer-info-1-1{
+    width: 300px;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-info-1-2{
+    width: 300px;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-info-1-3{
+    width: 300px;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-info-1-1-nav{
+    position: relative;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.footer-info-1-1-nav a{
+    color: rgb(197, 197, 197);
+}
+.footer-info-1-1-nav a:hover{
+    color: white;
+    transition: 0.7s;
+}
+.footer-info-1-2-nav{
+    position: relative;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.footer-info-1-2-nav a{
+    color: rgb(197, 197, 197);
+}
+.footer-info-1-2-nav a:hover{
+    color: white;
+    transition: 0.7s;
+}
+.footer-info-1-3-nav{
+        position: relative;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.footer-info-1-3-nav a{
+    color: rgb(197, 197, 197);
+}
+.footer-info-1-3-nav-img{
+    width: 25px;
+    height: auto;
+    position: relative;
+    top: 7px;
+    margin-left: 10px;
+}
+.footer-info-1-3-nav a:hover{
+    color: white;
+    transition: 0.7s;
+}
