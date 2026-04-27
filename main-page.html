@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main-style.css">
+    <link rel="icon" href="/car-sale-website/img/logo-img/logo.jpg">
+    <title>DareDevils.ru</title>
+</head>
+<body>
+    <header class="page-header">
+<div id="main1"></div>
+        <div class="container">
+            <div class="top-bar">
+                <div class="branding">
+                    <img class="branding__logo" src="/car-sale-website/img/logo-img/logo-meredes.svg" alt="Logo">
+                    <p class="branding__title">Mercede-Benz | DareDevils</p>
+                </div>
+                <div class="contact-info">
+                    <p class="contact-info__address">141031, Московская обл., Мытищинский р-н
+                        ТПЗ «DareDevils», Автомобильный пр-д, 5 стр. 9</p>
+                    <div class="social-links">
+                        <a class="social-links__item" href="#">
+                            <img src="/car-sale-website/img/logo-img/logo-tg.svg" alt="Telegram">
+                        </a>
+                        <a class="social-links__item" href="#">
+                            <img src="/car-sale-website/img/logo-img/logo-wk.svg" alt="VKontakte">
+                        </a>
+                    </div>
+                    <button class="button button--call-order">
+                        <a href="#">Заказать звонок</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="separator"></div>
+    </header>
+
+    <main class="main-content">
+        <section class="navigation-bar">
+            <div class="separator"></div>
+            <div class="container">
+                <nav class="main-nav">
+                    <a class="main-nav__link" href="#main1">Главная</a>
+                    <a class="main-nav__link" href="#model-range">Модельный ряд</a>
+                    <a class="main-nav__link" href="#credit">Кредит</a>
+                    <a class="main-nav__link" href="#trade-in">Трейд-ин</a>
+                    <a class="main-nav__link" href="#service">Сервис</a>
+                </nav>
+            </div>
+            <div class="separator"></div>
+        </section>
+
+        <section class="hero">
+            <div class="container-video">
+                <div class="hero__video-wrapper">
+                    <video class="hero__video" src="/car-sale-website/video/background-video/video2.mp4" autoplay muted loop playsinline></video>
+                </div>
+            </div>
+        </section>
+
+        <section class="catalog-section" id="model-range">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-header__title">Модельный ряд</h2>
+                    <p class="section-header__subtitle">Ознакомьтесь с нашим разнообразным ассортиментом моделей: здесь вы найдете автомобиль своей мечты.</p>
+                </div>
+            </div>
+
+            <div class="model-filter">
+                <div class="container">
+                    <div class="model-filter__wrapper">
+                        <div class="model-filter__label">
+                            <p>Модели автомобилей</p>
+                        </div>
+                        <ul class="model-filter__list">
+                            <li class="model-filter__item"><a href="#">E</a></li>
+                            <li class="model-filter__item"><a href="#">GLA</a></li>
+                            <li class="model-filter__item"><a href="#">GLC</a></li>
+                            <li class="model-filter__item"><a href="#">GLS</a></li>
+                            <li class="model-filter__item"><a href="#">GLE</a></li>
+                            <li class="model-filter__item"><a href="#">S</a></li>
+                            <li class="model-filter__item"><a href="#">V</a></li>
+                            <li class="model-filter__item"><a href="#">EQE</a></li>
+                            <li class="model-filter__item"><a href="#">G</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="separator separator--light"></div>
+            </div>
+
+            <div class="catalog-grid container">
+                <div class="car-card">
+                    <img class="car-card__image" src="/car-sale-website/img/auto-img/auto1.png" alt="Mercedes-Benz C-Class">
+                    <div class="car-card__info">
+                        <p class="car-card__name">Mercedes-Benz C-Class</p>
+                        <p class="car-card__price">6 990 000 ₽</p>
+                        <button class="button button--details" data-car="C-Class" id="openModal">Подробнее</button>
+                    </div>
+                </div>
+                <div class="car-card">
+                    <img class="car-card__image" src="/car-sale-website/img/auto-img/auto2.png" alt="Mercedes-Benz CLE-Class coupe">
+                    <div class="car-card__info">
+                        <p class="car-card__name">Mercedes-Benz CLE-Class coupe</p>
+                        <p class="car-card__price">от 10 999 000 ₽</p>
+                        <button class="button button--details" data-car="CLE-Class coupe">Подробнее</button>
+                    </div>
+                </div>
+                <div class="car-card">
+                    <img class="car-card__image" src="/car-sale-website/img/auto-img/auto3.png" alt="Mercedes-Benz E-Class">
+                    <div class="car-card__info">
+                        <p class="car-card__name">Mercedes-Benz E-Class</p>
+                        <p class="car-card__price">от 9 999 000 ₽</p>
+                        <button class="button button--details" data-car="E-Class">Подробнее</button>
+                    </div>
+                </div>
+                <div class="car-card">
+                    <img class="car-card__image" src="/car-sale-website/img/auto-img/auto4.png" alt="Mercedes-Benz EQE-Class SUV">
+                    <div class="car-card__info">
+                        <p class="car-card__name">Mercedes-Benz EQE-Class SUV</p>
+                        <p class="car-card__price">от 13 100 000 ₽</p>
+                        <button class="button button--details" data-car="EQE-Class SUV">Подробнее</button>
+                    </div>
+                </div>
+                <div class="car-card">
+                    <img class="car-card__image" src="/car-sale-website/img/auto-img/auto5.png" alt="Mercedes-Benz G-Class">
+                    <div class="car-card__info">
+                        <p class="car-card__name">Mercedes-Benz G-Class</p>
+                        <p class="car-card__price">от 25 000 000 ₽</p>
+                        <button class="button button--details" data-car="G-Class">Подробнее</button>
+                    </div>
+                </div>
+                <div class="car-card">
+                    <img class="car-card__image" src="/car-sale-website/img/auto-img/auto6.png" alt="Mercedes-Benz GLC-Class">
+                    <div class="car-card__info">
+                        <p class="car-card__name">Mercedes-Benz GLC-Class</p>
+                        <p class="car-card__price">от 12 200 000 ₽</p>
+                        <button class="button button--details" data-car="GLC-Class">Подробнее</button>
+                    </div>
+                </div>
+                <div class="car-card">
+                    <img class="car-card__image" src="/car-sale-website/img/auto-img/auto7.png" alt="Mercedes-Benz GLC-Class купе">
+                    <div class="car-card__info">
+                        <p class="car-card__name">Mercedes-Benz GLC-Class купе</p>
+                        <p class="car-card__price">от 9 800 000 ₽</p>
+                        <button class="button button--details" data-car="GLC-Class купе">Подробнее</button>
+                    </div>
+                </div>
+                <div class="car-card">
+                    <img class="car-card__image" src="/car-sale-website/img/auto-img/auto8.png" alt="Mercedes-Benz GLE-Class">
+                    <div class="car-card__info">
+                        <p class="car-card__name">Mercedes-Benz GLE-Class</p>
+                        <p class="car-card__price">от 12 990 000 ₽</p>
+                        <button class="button button--details" data-car="GLE-Class">Подробнее</button>
+                    </div>
+                </div>
+                <div class="car-card">
+                    <img class="car-card__image" src="/car-sale-website/img/auto-img/auto9.png" alt="Mercedes-Benz GLE-Class купе">
+                    <div class="car-card__info">
+                        <p class="car-card__name">Mercedes-Benz GLE-Class купе</p>
+                        <p class="car-card__price">от 17 370 000 ₽</p>
+                        <button class="button button--details" data-car="GLE-Class купе">Подробнее</button>
+                    </div>
+                </div>
+                <div class="car-card">
+                    <img class="car-card__image" src="/car-sale-website/img/auto-img/auto10.png" alt="Mercedes-Benz GLS-Class">
+                    <div class="car-card__info">
+                        <p class="car-card__name">Mercedes-Benz GLS-Class</p>
+                        <p class="car-card__price">от 17 400 000 ₽</p>
+                        <button class="button button--details" data-car="GLS-Class">Подробнее</button>
+                    </div>
+                </div>
+                <div class="car-card">
+                    <img class="car-card__image" src="/car-sale-website/img/auto-img/auto11.png" alt="Mercedes-Benz S-Class">
+                    <div class="car-card__info">
+                        <p class="car-card__name">Mercedes-Benz S-Class</p>
+                        <p class="car-card__price">от 21 900 000 ₽</p>
+                        <button class="button button--details" data-car="S-Class">Подробнее</button>
+                    </div>
+                </div>
+                <div class="car-card">
+                    <img class="car-card__image" src="/car-sale-website/img/auto-img/auto12.png" alt="Mercedes-Benz S-Class Maybach">
+                    <div class="car-card__info">
+                        <p class="car-card__name">Mercedes-Benz S-Class Maybach</p>
+                        <p class="car-card__price">Доступно к предзаказу</p>
+                        <button class="button button--details" data-car="S-Class Maybach">Подробнее</button>
+                    </div>
+                </div>
+                <div class="car-card">
+                    <img class="car-card__image" src="/car-sale-website/img/auto-img/auto13.png" alt="Mercedes-Benz V-Class">
+                    <div class="car-card__info">
+                        <p class="car-card__name">Mercedes-Benz V-Class</p>
+                        <p class="car-card__price">от 17 600 000 ₽</p>
+                        <button class="button button--details" data-car="V-Class">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="carModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2 id="modalCarName">Mercedes-Benz C-Class</h2>
+            <span class="close-modal">&times;</span>
+        </div>
+        <div class="modal-body">
+            <div class="modal-car-info">
+                <img id="modalCarImage" src="" alt="Автомобиль" class="modal-car-image">
+                <div class="modal-car-details">
+                    <p class="modal-price" id="modalCarPrice"></p>
+                    <div class="modal-specs">
+                        <h3>Характеристики:</h3>
+                        <ul id="modalCarSpecs">
+                            <li>Двигатель: 2.0 л (204 л.с.)</li>
+                            <li>Коробка: 9-ступенчатая АКПП</li>
+                            <li>Привод: Задний / Полный</li>
+                            <li>Расход: 7.5 л/100 км</li>
+                            <li>Разгон 0-100 км/ч: 7.3 сек</li>
+                        </ul>
+                    </div>
+                    <div class="modal-actions">
+                        <button class="button test-drive-btn">Записаться на тест-драйв</button>
+                        <button class="button order-btn">Оставить заявку</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <section class="credit-section" id="credit">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-header__title">Кредит</h2>
+                    <p class="section-header__subtitle">Ознакомьтесь с нашим разнообразным ассортиментом моделей: здесь вы найдете автомобиль своей мечты.</p>
+                </div>
+
+                <div class="credit-info">
+                    <div class="credit-info__description">
+                        <p>За счёт автокредита можно купить автомобиль с минимальной финансовой нагрузкой. У официального дилера Панавто доступны выгодные программы кредитования для физических лиц.</p>
+                        <p class="credit-info__subtitle">Расчёт автокредита</p>
+                        <p>При автокредитах нужен первоначальный взнос. Чем он больше, тем меньшую сумму нужно брать у банка и, следовательно, тем ниже ваша долговая нагрузка.
+
+                            Погашение задолженности ведётся регулярными взносами по заранее составленному графику. Раз в месяц вы пополняете кредитный счёт на установленную сумму. Она зависит от размера займа и срока кредитования.
+
+                            Например, при покупке автомобиля Mercedes-Benz C-Class за 6 990 000 ₽ на пять лет с первым взносом 50% ежемесячный платёж может составить 66 754 ₽. Это усреднённый расчёт без учёта персональной информации клиента. Чтобы узнать более точные параметры, отправьте онлайн-заявку.</p>
+                        <p class="credit-info__subtitle">Условия кредита на автомобиль</p>
+                        <p>Годовой процент, срок и размер ежемесячного платежа определяются индивидуально.
+
+                            На процент по автокредиту влияет несколько факторов:</p>
+                        <ul class="credit-info__list">
+                            <li>- ключевая ставка ЦБ РФ,</li>
+                            <li>- возраст заёмщика,</li>
+                            <li>- готовность оформить страхование авто,</li>
+                            <li>- кредитная история,</li>
+                            <li>- другие параметры на усмотрение финансовой организации.</li>
+                        </ul>
+                        <p>Предоставлять выписку с банковского счёта и подтверждать доход обычно не требуется. Для оформления достаточно двух документов.</p>
+                        <p class="credit-info__subtitle">Требования для получения кредита на авто</p>
+                        <p>При рассмотрении заявки кредитная организация проверяет соответствие заёмщика установленным требованиям. Условия зависят от банка: обычно действуют ограничения по возрасту, трудовому стажу и гражданству. Большинство кредитных продуктов рассчитаны на физических лиц 21–65 лет с гражданством РФ и постоянным доходом.</p>
+                        <p class="credit-info__subtitle">Почему выгодно покупать авто в кредит в DareDevils</p>
+                        <p>Для клиентов DareDevils регулярно действуют спецпредложения с пониженной ставкой и лояльными требованиями. Мы знаем особенности разных банков и помогаем правильно заполнить заявление, что повышает шансы на одобрение.</p>
+                        <p class="credit-info__subtitle">Как оформить кредит на авто в DareDevils</p>
+                        <p>Выберите марку и модель автомобиля, свяжитесь с нами, чтобы получить больше информации о покупке и назначить день для визита. Приезжайте с документами: паспортом и правами.</p>
+                        <p>Всё остальное можно сделать в салоне: найти кредитное предложение, подать заявку, получить быстрое одобрение, подписать документы и оформить страхование на автомобиль.</p>
+                        <p class="credit-info__subtitle">Наши партнёры</p>
+                        <p>Мы сотрудничаем с крупными российскими банками, что позволяет вам выбрать лучшую программу кредитования для покупки авто.</p>
+                    </div>
+
+                    <div class="credit-steps">
+                        <p class="credit-steps__title">Порядок получения кредита:</p>
+                        <div class="step-card">
+                            <div class="step-card__number">1</div>
+                            <p class="step-card__title">Оставьте заявку</p>
+                            <p class="step-card__description">Укажите желаемый автомобиль и параметры кредита на сайте или в дилерском центре.</p>
+                        </div>
+                        <div class="step-card">
+                            <div class="step-card__number">2</div>
+                            <p class="step-card__title">Получите предложение</p>
+                            <p class="step-card__description">Мы подберём оптимальные финансовые условия с учётом ваших предпочтений — даже без визита в салон.</p>
+                        </div>
+                        <div class="step-card">
+                            <div class="step-card__number">3</div>
+                            <p class="step-card__title">Подготовьте документы</p>
+                            <p class="step-card__description">После одобрения заявки приезжайте в DareDevils. Понадобится только паспорт и второй документ — остальное подскажем.</p>
+                        </div>
+                        <div class="step-card">
+                            <div class="step-card__number">4</div>
+                            <p class="step-card__title">Подпишите договор</p>
+                            <p class="step-card__description">Оформим всё на месте: вы подписываете договор и вносите первый взнос. Быстро, прозрачно, ничего лишнего.</p>
+                        </div>
+                        <div class="step-card">
+                            <div class="step-card__number">5</div>
+                            <p class="step-card__title">Получите автомобиль</p>
+                            <p class="step-card__description">Сразу после оформления вы становитесь владельцем нового автомобиля.</p>
+                        </div>
+                        <div class="credit-request">
+                            <div class="credit-request__badge">Заполнение заявки</div>
+                            <p class="credit-request__title">Заполните форму и наши менеджеры с вами свяжутся</p>
+                            <button class="button button--primary">Оставить заявку</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tradein-section" id="trade-in">
+            <div class="container">
+                <div class="tradein-block">
+                    <div class="tradein-block__form">
+                        <h2 class="tradein-block__title">Трейд-ин</h2>
+                        <p class="tradein-block__subtitle">Выгодные условия на обмен вашего авто</p>
+                        <div class="form-group">
+                            <select class="form-select">
+                                <option>Выберите марку</option>
+                                <option value="Audi">Audi</option>
+                                <option value="BMW">BMW</option>
+                                <option value="Mercedes-Benz">Mercedes-Benz</option>
+                            </select>
+                            <select class="form-select">
+                                <option>Выберите модель</option>
+                            </select>
+                        </div>
+                        <div class="form-group form-group--inline">
+                            <input class="form-input" type="text" placeholder="Год выпуска">
+                            <input class="form-input" type="text" placeholder="Номер телефона">
+                        </div>
+                        <button class="button button--block">Заказать звонок</button>
+                    </div>
+                    <img class="tradein-block__image" src="/car-sale-website/img/auto-img/auto14.jpg" alt="Trade-in car">
+                </div>
+            </div>
+        </section>
+
+        <section class="service-section" id="service">
+            <div class="container">
+                <div class="section-header section-header--left">
+                    <h2 class="section-header__title">Сервис</h2>
+                    <p class="section-header__subtitle">Комплекс работ по техническому обслуживанию и ремонту двигателя автомобиля, который обеспечивает его бесперебойную работу и продлевает срок службы</p>
+                </div>
+                <ul class="services-list">
+                    <li class="services-list__item"><a href="#">Техническое обслуживание</a></li>
+                    <li class="services-list__item"><a href="#">Диагностика</a></li>
+                    <li class="services-list__item"><a href="#">Сход-развал</a></li>
+                    <li class="services-list__item"><a href="#">Проверка сход-развала</a></li>
+                    <li class="services-list__item"><a href="#">Шиномонтаж</a></li>
+                    <li class="services-list__item"><a href="#">Детейлинг-уход</a></li>
+                    <li class="services-list__item"><a href="#">Замена-масла</a></li>
+                    <li class="services-list__item"><a href="#">Кузовной ремонт</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <p class="footer-brand__name">DaraDevils</p>
+                    <div class="footer-description">
+                        <p class="footer-description__text">DareDevils Autosalon. Правила - для других.</p>
+                        <p>Мы не просто продаем автомобили. Мы бросаем вызов обыденности.
+                            Наша миссия — находить для настоящих "сорвиголов" автомобили,
+                            которые станут не просто железом, а частью их характера.</p>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <div class="footer-nav__column">
+                        <p class="footer-nav__title">Основные разделы</p>
+                        <nav class="footer-nav__list">
+                            <li><a href="#main1">Главная</a></li>
+                            <li><a href="#model-range">Модельный ряд</a></li>
+                            <li><a href="#credit">Кредит</a></li>
+                            <li><a href="#trade-in">Трейд-ин</a></li>
+                            <li><a href="#service">Сервис</a></li>
+                        </nav>
+                    </div>
+                    <div class="footer-nav__column">
+                        <p class="footer-nav__title">Полезная информация</p>
+                        <nav class="footer-nav__list">
+                            <li><a href="#">Вакансии и карьера</a></li>
+                            <li><a href="#">Сотрудничество</a></li>
+                            <li><a href="#">О компании</a></li>
+                        </nav>
+                    </div>
+                    <div class="footer-nav__column">
+                        <p class="footer-nav__title">Обратная связь</p>
+                        <nav class="footer-nav__list">
+                            <li><a href="#">+8 800-555-35-35</a></li>
+                            <li><a href="#">Наш телеграмм ;)</a> <img class="footer-nav__icon" src="/car-sale-website/img/logo-img/logo-tg.svg" alt="Telegram"></li>
+                            <li><a href="#">Наш ВК</a> <img class="footer-nav__icon" src="/car-sale-website/img/logo-img/logo-wk.svg" alt="VK"></li>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <script src="/car-sale-website/JavaScript/modal-win/car-modal-win.js"></script>
+</body>
+</html>
