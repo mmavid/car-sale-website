@@ -54,7 +54,7 @@
         <section class="hero">
             <div class="container-video">
                 <div class="hero__video-wrapper">
-                    <video class="hero__video" src="/car-sale-website/video/background-video/video2.mp4" autoplay muted loop playsinline></video>
+                    <video class="hero__video" src="/car-sale-website/video/background-video/video1.mp4" autoplay muted loop playsinline></video>
                 </div>
             </div>
         </section>
@@ -312,10 +312,48 @@
                         <p class="tradein-block__subtitle">Выгодные условия на обмен вашего авто</p>
                         <div class="form-group">
                             <select class="form-select">
-                                <option>Выберите марку</option>
                                 <option value="Audi">Audi</option>
                                 <option value="BMW">BMW</option>
                                 <option value="Mercedes-Benz">Mercedes-Benz</option>
+                                <option value="Cadillac">Cadillac</option>
+                                <option value="Chery">Chery</option>
+                                <option value="Chevrolet">Chevrolet</option>
+                                <option value="Citroen">Citroen</option>
+                                <option value="Daewoo">Daewoo</option>
+                                <option value="Datsun">Datsun</option>
+                                <option value="Fiat">Fiat</option>
+                                <option value="Ford">Ford</option>
+                                <option value="Great Wall">Great Wall</option>
+                                <option value="Honda">Honda</option>
+                                <option value="Hyundai">Hyundai</option>
+                                <option value="Infiniti">Infiniti</option>
+                                <option value="Jaguar">Jaguar</option>
+                                <option value="Jeep">Jeep</option>
+                                <option value="Kia">Kia</option>
+                                <option value="LADA">LADA</option>
+                                <option value="Land Rover">Land Rover</option>
+                                <option value="Lexus">Lexus</option>
+                                <option value="Lifan">Lifan</option>
+                                <option value="Mazda">Mazda</option>
+                                <option value="Mercedes-Benz">Mercedes-Benz</option>
+                                <option value="Mini">Mini</option>
+                                <option value="Nissan">Nissan</option>
+                                <option value="Opel">Opel</option>
+                                <option value="Peugeot">Peugeot</option>
+                                <option value="Renault">Renault</option>
+                                <option value="SEAT">SEAT</option>
+                                <option value="Skoda">Skoda</option>
+                                <option value="Smart">Smart</option>
+                                <option value="SsangYong">SsangYong</option>
+                                <option value="Subaru">Subaru</option>
+                                <option value="Suzuki">Suzuki</option>
+                                <option value="Toyota">Toyota</option>
+                                <option value="Volkswagen">Volkswagen</option>
+                                <option value="Volvo">Volvo</option>
+                                <option value="ВИС">ВИС</option>
+                                <option value="ГАЗ">ГАЗ</option>
+                                <option value="Москвич">Москвич</option>
+                                <option value="УАЗ">УАЗ</option>
                             </select>
                             <select class="form-select">
                                 <option>Выберите модель</option>
@@ -350,6 +388,22 @@
                 </ul>
             </div>
         </section>
+
+
+                <div class="service-modal-overlay" id="serviceModalOverlay">
+            <div class="service-modal" id="serviceModal">
+                <div class="service-modal__header">
+                    <h3 class="service-modal__title" id="modalTitle"></h3>
+                    <button class="service-modal__close" id="closeServiceModalBtn">&times;</button>
+                </div>
+                <div class="service-modal__body" id="modalBody">
+                </div>
+                <div class="service-modal__footer">
+                    <button class="service-modal__button" id="closeModalFooterBtn">Закрыть</button>
+                </div>
+            </div>
+        </div>
+
     </main>
 
     <footer class="page-footer">
@@ -394,5 +448,7 @@
             </div>
     </footer>
     <script src="/car-sale-website/JavaScript/modal-win/car-modal-win.js"></script>
+    <script src="/car-sale-website/JavaScript/trade-in/trade-in-cars.js"></script>
+    <script src="/car-sale-website/JavaScript/modal-win/servise-modal-win.js"></script>
 </body>
 </html>
