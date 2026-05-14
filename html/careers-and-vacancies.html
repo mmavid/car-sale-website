@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/car-sale-website/css/careers-and-vacancies.css">
+    <link rel="icon" href="/car-sale-website/img/logo-img/logo.jpg">
+    <title>DareDevils | Вакансии и карьера</title>
+</head>
+<body>
+    <header class="page-header">
+        <div class="container">
+            <div class="top-bar">
+                <div class="branding">
+                    <img class="branding__logo"  src="/car-sale-website/img/logo-img/logo-meredes.svg" alt="Logo">
+                    <p class="branding__title">Mercedes-Benz | DareDevils</p>
+                </div>
+                <div class="contact-info">
+                    <p class="contact-info__address">141031, Московская обл., Мытищинский р-н
+                        ТПЗ «DareDevils», Автомобильный пр-д, 5 стр. 9</p>
+                    <div class="social-links">
+                        <a class="social-links__item" href="#">
+                            <img src="/car-sale-website/img/logo-img/logo-tg.svg" alt="Telegram">
+                        </a>
+                        <a class="social-links__item" href="#">
+                            <img src="/car-sale-website/img/logo-img/logo-wk.svg" alt="VKontakte">
+                        </a>
+                    </div>
+                    <button class="button button--call-order">
+                        <a href="#">Заказать звонок</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="separator"></div>
+    </header>
+
+    <main class="main-content">
+        <section class="navigation-bar">
+            <div class="separator"></div>
+            <div class="container">
+                <nav class="main-nav">
+                    <a class="main-nav__link" href="/car-sale-website/html/main-page.html">Вернуться на главную</a>
+                    <a class="main-nav__link" href="#">Модельный ряд</a>
+                    <a class="main-nav__link" href="#">Кредит</a>
+                    <a class="main-nav__link" href="#">Трейд-ин</a>
+                    <a class="main-nav__link" href="#">Сервис</a>
+                </nav>
+            </div>
+            <div class="separator"></div>
+        </section>
+
+        <div class="career-hero">
+            <div class="container">
+                <h1 class="career-hero__title">Стань частью команды DareDevils</h1>
+                <p class="career-hero__subtitle">Мы ищем смелых, талантливых и амбициозных. Вместе мы создаём будущее автомобильного мира. Присоединяйся к лидерам!</p>
+                <button class="button button--primary" style="margin-top: 40px; display: inline-block;" id="scrollToVacancies">Смотреть вакансии</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Наши ценности -->
+            <div class="section-header">
+                <h2 class="section-header__title">Почему работа у нас — это вызов?</h2>
+                <p class="section-header__subtitle">Мы ценим драйв, профессионализм и стремление к совершенству.</p>
+            </div>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-card__icon">🚀</div>
+                    <div class="value-card__title">Развитие</div>
+                    <div class="value-card__text">Постоянное обучение, тренинги и карьерный рост внутри компании.</div>
+                </div>
+                <div class="value-card">
+                    <div class="value-card__icon">🤝</div>
+                    <div class="value-card__title">Команда</div>
+                    <div class="value-card__text">Единомышленники, готовые поддержать и вместе достигать целей.</div>
+                </div>
+                <div class="value-card">
+                    <div class="value-card__icon">💰</div>
+                    <div class="value-card__title">Доход</div>
+                    <div class="value-card__text">Конкурентная зарплата, бонусы, соцпакет и премии за результат.</div>
+                </div>
+                <div class="value-card">
+                    <div class="value-card__icon">🏆</div>
+                    <div class="value-card__title">Престиж</div>
+                    <div class="value-card__text">Работа с премиальным брендом Mercedes-Benz и статус в индустрии.</div>
+                </div>
+            </div>
+
+            <div class="section-header section-header--left" id="vacanciesSection">
+                <h2 class="section-header__title">Открытые позиции</h2>
+                <p class="section-header__subtitle">Выберите вакансию, которая подходит именно вам, и станьте частью DareDevils.</p>
+            </div>
+            <div class="vacancies-list" id="vacanciesList">
+                <div class="vacancy-item">
+                    <h3 class="vacancy-item__title">Менеджер по продажам автомобилей</h3>
+                    <div class="vacancy-item__salary">от 150 000 ₽ + бонусы</div>
+                    <p class="vacancy-item__desc">Продажи автомобилей Mercedes-Benz, консультирование клиентов, ведение сделок «под ключ».</p>
+                    <ul class="vacancy-item__req">
+                        <li>Опыт в автопродажах от 1 года</li>
+                        <li>Уверенное знание техники продаж</li>
+                        <li>Амбициозность и клиентоориентированность</li>
+                    </ul>
+                    <button class="vacancy-btn" data-vacancy="Менеджер по продажам автомобилей">Откликнуться</button>
+                </div>
+                <div class="vacancy-item">
+                    <h3 class="vacancy-item__title">Автомеханик / Диагност</h3>
+                    <div class="vacancy-item__salary">от 120 000 ₽</div>
+                    <p class="vacancy-item__desc">Техобслуживание, диагностика и ремонт автомобилей Mercedes-Benz. Современное оборудование.</p>
+                    <ul class="vacancy-item__req">
+                        <li>Знание устройства европейских авто</li>
+                        <li>Опыт работы от 2 лет</li>
+                        <li>Наличие профильного образования приветствуется</li>
+                    </ul>
+                    <button class="vacancy-btn" data-vacancy="Автомеханик / Диагност">Откликнуться</button>
+                </div>
+                <div class="vacancy-item">
+                    <h3 class="vacancy-item__title">Специалист по кредитованию и страхованию</h3>
+                    <div class="vacancy-item__salary">от 130 000 ₽ + KPI</div>
+                    <p class="vacancy-item__desc">Оформление кредитов и страховок, работа с банками-партнёрами, консультация клиентов.</p>
+                    <ul class="vacancy-item__req">
+                        <li>Опыт в финансовых продуктах от 1 года</li>
+                        <li>Понимание банковских процессов</li>
+                        <li>Коммуникабельность и ответственность</li>
+                    </ul>
+                    <button class="vacancy-btn" data-vacancy="Специалист по кредитованию и страхованию">Откликнуться</button>
+                </div>
+                <div class="vacancy-item">
+                    <h3 class="vacancy-item__title">Менеджер по работе с клиентами (CRM)</h3>
+                    <div class="vacancy-item__salary">от 100 000 ₽</div>
+                    <p class="vacancy-item__desc">Ведение клиентской базы, обработка заявок, поддержание лояльности.</p>
+                    <ul class="vacancy-item__req">
+                        <li>Навыки работы с CRM-системами</li>
+                        <li>Грамотная устная и письменная речь</li>
+                        <li>Опыт в автосалоне — преимущество</li>
+                    </ul>
+                    <button class="vacancy-btn" data-vacancy="Менеджер по работе с клиентами (CRM)">Откликнуться</button>
+                </div>
+                <div class="vacancy-item">
+                    <h3 class="vacancy-item__title">Автоэлектрик / Инженер по электронике</h3>
+                    <div class="vacancy-item__salary">от 140 000 ₽</div>
+                    <p class="vacancy-item__desc">Диагностика и ремонт электронных систем Mercedes-Benz, адаптация блоков.</p>
+                    <ul class="vacancy-item__req">
+                        <li>Профильное образование</li>
+                        <li>Опыт работы со сложной электроникой</li>
+                        <li>Знание сканеров и ПО</li>
+                    </ul>
+                    <button class="vacancy-btn" data-vacancy="Автоэлектрик / Инженер по электронике">Откликнуться</button>
+                </div>
+                <div class="vacancy-item">
+                    <h3 class="vacancy-item__title">Специалист по трейд-ин и оценке</h3>
+                    <div class="vacancy-item__salary">от 110 000 ₽ + %</div>
+                    <p class="vacancy-item__desc">Оценка автомобилей клиентов, оформление трейд-ин, взаимодействие с оценочными компаниями.</p>
+                    <ul class="vacancy-item__req">
+                        <li>Опыт оценки авто от 1 года</li>
+                        <li>Знание рынка подержанных авто</li>
+                        <li>Навыки переговоров</li>
+                    </ul>
+                    <button class="vacancy-btn" data-vacancy="Специалист по трейд-ин и оценке">Откликнуться</button>
+                </div>
+            </div>
+            <div class="response-form" id="responseForm">
+                <h3 class="form-title">Отправить резюме</h3>
+                <p>Заполните форму, и наш HR-специалист свяжется с вами в ближайшее время.</p>
+                <form id="careerForm">
+                    <div class="form-grid">
+                        <div class="form-field">
+                            <label>Ваше имя *</label>
+                            <input type="text" id="fullname" required placeholder="Иван Петров">
+                        </div>
+                        <div class="form-field">
+                            <label>Номер телефона *</label>
+                            <input type="tel" id="phone" required placeholder="+7 (999) 123-45-67">
+                        </div>
+                        <div class="form-field">
+                            <label>Email</label>
+                            <input type="email" id="email" placeholder="ivan@example.com">
+                        </div>
+                        <div class="form-field">
+                            <label>Интересующая вакансия *</label>
+                            <select id="vacancySelect" required>
+                                <option value="">-- Выберите вакансию --</option>
+                                <option>Менеджер по продажам автомобилей</option>
+                                <option>Автомеханик / Диагност</option>
+                                <option>Специалист по кредитованию и страхованию</option>
+                                <option>Менеджер по работе с клиентами (CRM)</option>
+                                <option>Автоэлектрик / Инженер по электронике</option>
+                                <option>Специалист по трейд-ин и оценке</option>
+                            </select>
+                        </div>
+                        <div class="form-field full-width">
+                            <label>Краткое сопроводительное письмо или ссылка на резюме</label>
+                            <textarea rows="4" id="message" placeholder="Расскажите о своем опыте, достижениях..."></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="submit-btn">Отправить заявку</button>
+                    <p id="formFeedback" style="margin-top: 15px; color: rgb(221, 146, 6); font-size: 16px;"></p>
+                </form>
+            </div>
+        </div>
+
+        <div id="successModal" style="display: none; position: fixed; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.9); z-index: 2000; align-items: center; justify-content: center;">
+            <div style="background: rgb(36,36,36); padding: 40px; border-radius: 30px; text-align: center; max-width: 400px; margin: 20px;">
+                <h3 style="color: rgb(221,146,6); font-size: 28px;">Спасибо!</h3>
+                <p style="font-size: 18px; margin: 20px 0;">Ваша заявка успешно отправлена. Наши рекрутеры свяжутся с вами в ближайшее время.</p>
+                <button id="closeSuccessModal" style="background: rgb(221,146,6); border: none; padding: 12px 25px; border-radius: 40px; font-size: 18px; cursor: pointer;">Закрыть</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="page-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <p class="footer-brand__name">DareDevils</p>
+                <div class="footer-description">
+                    <p class="footer-description__text">DareDevils Autosalon. Правила - для других.</p>
+                    <p>Мы не просто продаем автомобили. Мы бросаем вызов обыденности. Наша миссия — находить для настоящих "сорвиголов" автомобили, которые станут не просто железом, а частью их характера.</p>
+                </div>
+            </div>
+            <div class="footer-nav">
+                <div class="footer-nav__column">
+                    <p class="footer-nav__title">Основные разделы</p>
+                    <nav class="footer-nav__list">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Модельный ряд</a></li>
+                        <li><a href="#">Кредит</a></li>
+                        <li><a href="#">Трейд-ин</a></li>
+                        <li><a href="#">Сервис</a></li>
+                    </nav>
+                </div>
+                <div class="footer-nav__column">
+                    <p class="footer-nav__title">Полезная информация</p>
+                    <nav class="footer-nav__list">
+                        <li><a href="#">Вакансии и карьера</a></li>
+                        <li><a href="#">Сотрудничество</a></li>
+                        <li><a href="#">О компании</a></li>
+                    </nav>
+                </div>
+                <div class="footer-nav__column">
+                    <p class="footer-nav__title">Обратная связь</p>
+                    <nav class="footer-nav__list">
+                        <li><a href="#">+8 800-555-35-35</a></li>
+                        <li><a href="#">Наш телеграмм ;)</a> <img class="footer-nav__icon" src="/car-sale-website/img/logo-img/logo-tg.svg" alt="Telegram"></li>
+                        <li><a href="#">Наш ВК</a> <img class="footer-nav__icon" src="/car-sale-website/img/logo-img/logo-wk.svg" alt="VK"></li>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+<script src="/car-sale-website/JavaScript/c-and-v/scroll-vacancies.js"></script>
